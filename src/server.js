@@ -6,8 +6,8 @@ const port = process.env.PORT || 3000;
 
 // Proxy Route: Forward the request to the backend API
 // app.post("/customer/customerDetails", (req, res) => {
-app.post("https://hyderabad-packers-movers.in/customer/customerDetails", (req, res) => {
-  const backendUrl = "https://backend.hyderabad-packers-movers.in/customer/customerDetails";
+app.post("https://vaishnaviproject.world/customer/customerDetails", (req, res) => {
+  const backendUrl = "https://backend.vaishnaviproject.world/customer/customerDetails";
 
   fetch(backendUrl, {
     method: "POST", // Use POST or GET depending on your backend API
